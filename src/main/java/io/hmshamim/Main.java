@@ -8,8 +8,11 @@ import io.hmshamim.state.StateAction;
 
 public class Main {
     public static void main(String[] args) {
-//        MomentoAction.printResult();
+/*
+        MomentoAction.printResult();
         StateAction.printResult();
+
+*/
 
     }
 

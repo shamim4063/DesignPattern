@@ -18,6 +18,6 @@ Design patterns are templates for solving problems that can be adapted to solve 
 
 These are just a few examples of the different types of design patterns that are available in software development. Each pattern has its own strengths and weaknesses and can be used in different contexts to solve specific problems.
 
-**Here we will discuss about some popular design pattern with example code**
-- [**Momento Pattern**](src/main/java/io/hmshamim/momento/momento.md)
-- [**State Pattern**](src/main/java/io/hmshamim/state/state.md)
+**Here we will discuss about some popular design pattern with example code:**
+- [**Momento Pattern**](src/main/java/io/hmshamim/momento/MOMENTO.md)
+- [**State Pattern**](src/main/java/io/hmshamim/state/STATE.md)
