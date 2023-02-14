@@ -6,12 +6,12 @@ The Memento pattern is used to implement undo/redo operations,
 or to provide a way to roll back to a previous state of an object.
 
 
-## Here are some key characteristics of the Memento pattern:
-- Originator class: The Originator class is the object whose state needs to be saved and restored.
-- Memento class: The Memento class represents the saved state of the Originator object.
-- Caretaker class: The Caretaker class is responsible for storing and restoring the Memento.
+### Here are some key characteristics of the Memento pattern:
+- **Originator class:** The Originator class is the object whose state needs to be saved and restored.
+- **Memento class:** The Memento class represents the saved state of the Originator object.
+- **Caretaker class:** The Caretaker class is responsible for storing and restoring the Memento.
 
-## Example:
+### Example:
 ```
 class Originator {
   private String state;
