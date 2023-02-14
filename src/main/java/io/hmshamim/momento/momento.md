@@ -12,7 +12,7 @@ or to provide a way to roll back to a previous state of an object.
 - **Caretaker class:** The Caretaker class is responsible for storing and restoring the Memento.
 
 ### Example:
-```
+```java
 class Originator {
   private String state;
 

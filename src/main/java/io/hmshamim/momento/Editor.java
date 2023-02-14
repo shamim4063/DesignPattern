@@ -1,7 +1,7 @@
 package io.hmshamim.momento;
 
 public class Editor {
-    public String content;
+    private String content;
 
     public EditorState createState(){
         return new EditorState(content);

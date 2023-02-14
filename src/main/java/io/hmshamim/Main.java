@@ -1,25 +1,17 @@
 package io.hmshamim;
 
-import io.hmshamim.momento.Editor;
-import io.hmshamim.momento.Hisotry;
+import io.hmshamim.momento.MomentoAction;
+import io.hmshamim.state.BrushTool;
+import io.hmshamim.state.Canvas;
+import io.hmshamim.state.SelectionTool;
+import io.hmshamim.state.StateAction;
 
 public class Main {
     public static void main(String[] args) {
+//        MomentoAction.printResult();
+        StateAction.printResult();
 
-        //Momento In Action
-        var editor = new Editor();
-        var hisotry = new Hisotry();
-
-        editor.setContent("a");
-        hisotry.push(editor.createState());
-
-        editor.setContent("b");
-        hisotry.push(editor.createState());
-
-        editor.setContent("c");
-        editor.restoreState(hisotry.pop());
-        editor.restoreState(hisotry.pop());
-
-        System.out.println(editor.getContent());
     }
+
+
 }
