@@ -13,7 +13,7 @@ public class Main {
         StateAction.printResult();
 
 */
-
+        StateAction.printResult();
     }
 
 
