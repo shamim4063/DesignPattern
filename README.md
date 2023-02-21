@@ -21,3 +21,4 @@ These are just a few examples of the different types of design patterns that are
 **Here we will discuss about some popular design pattern with example code:**
 - [**Momento Pattern**](src/main/java/io/hmshamim/momento/MOMENTO.md)
 - [**State Pattern**](src/main/java/io/hmshamim/state/STATE.md)
+- [**Iterator Pattern**](src/main/java/io/hmshamim/iterator/ITERATOR.md)

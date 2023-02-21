@@ -1,5 +1,7 @@
 package io.hmshamim;
 
+import io.hmshamim.iterator.BrowserHistory;
+import io.hmshamim.iterator.IteratorAction;
 import io.hmshamim.momento.MomentoAction;
 import io.hmshamim.state.BrushTool;
 import io.hmshamim.state.Canvas;
@@ -11,9 +13,8 @@ public class Main {
 /*
         MomentoAction.printResult();
         StateAction.printResult();
-
+        IteratorAction.printResult();
 */
-        StateAction.printResult();
     }
 
 
