@@ -14,7 +14,7 @@ When the context needs to perform a task, it delegates the task to one of its co
 
 In summary, the Strategy Pattern is a way to encapsulate a family of related algorithms as objects and make them interchangeable at runtime. It is useful when you have a set of related algorithms and want to select one of them dynamically based on the situation.
 
-**Difference between the Strategy Pattern:**
+**Difference between the Strategy Pattern and State Pattern:**
 
 Difference between the Strategy Pattern and State Pattern is their intent. The Strategy Pattern is concerned with selecting a behavior at runtime from a family of related algorithms, whereas the State Pattern is concerned with changing the behavior of an object as its internal state changes.
 
