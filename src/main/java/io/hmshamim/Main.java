@@ -5,6 +5,7 @@ import io.hmshamim.iterator.IteratorAction;
 import io.hmshamim.momento.MomentoAction;
 import io.hmshamim.state.StateAction;
 import io.hmshamim.strategy.StrategyAction;
+import io.hmshamim.template.TemplateAction;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,6 +15,7 @@ public class Main {
         StateAction.printResult();
         IteratorAction.printResult();
         StrategyAction.printResult();
+        TemplateAction.printResult();
 */
 
     }
