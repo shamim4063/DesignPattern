@@ -25,3 +25,4 @@ These are just a few examples of the different types of design patterns that are
 - [**Strategy Pattern**](src/main/java/io/hmshamim/strategy/STRATEGY.md)
 - [**Template Pattern**](src/main/java/io/hmshamim/template/TEMPLATE.md)
 - [**Command Pattern**](src/main/java/io/hmshamim/command/COMMAND.md)
+- [**Observer Pattern**](src/main/java/io/hmshamim/observer/OBSERVER.md)
