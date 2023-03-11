@@ -1,6 +1,7 @@
 package io.hmshamim;
 
 
+import io.hmshamim.command.CommandAction;
 import io.hmshamim.iterator.IteratorAction;
 import io.hmshamim.momento.MomentoAction;
 import io.hmshamim.state.StateAction;
@@ -17,6 +18,7 @@ public class Main {
         StrategyAction.printResult();
         TemplateAction.printResult();
 */
+        CommandAction.printResult();
 
     }
 
