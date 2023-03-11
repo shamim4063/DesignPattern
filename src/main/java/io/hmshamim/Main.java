@@ -4,6 +4,9 @@ package io.hmshamim;
 import io.hmshamim.command.CommandAction;
 import io.hmshamim.iterator.IteratorAction;
 import io.hmshamim.momento.MomentoAction;
+import io.hmshamim.observer.ObserverAction;
+import io.hmshamim.observer.pullstyle.ObserverPullStyleAction;
+import io.hmshamim.observer.pushstyle.ObserverPushStyleAction;
 import io.hmshamim.state.StateAction;
 import io.hmshamim.strategy.StrategyAction;
 import io.hmshamim.template.TemplateAction;
@@ -17,9 +20,11 @@ public class Main {
         IteratorAction.printResult();
         StrategyAction.printResult();
         TemplateAction.printResult();
-*/
         CommandAction.printResult();
-
+        ObserverAction.printResult();
+        ObserverPushStyleAction.printResult();
+        ObserverPullStyleAction.printResult();
+*/
     }
 
 
