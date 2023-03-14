@@ -1,7 +1,7 @@
 package io.hmshamim.momento;
 
-public class MomentoAction {
-    public static void printResult(){
+public class MomentoSimulation {
+    public static void simulate(){
         /*
          * Editor class is our originator whose state needs to be saved.
          * And History is the Caretaker which will store and restore the state.

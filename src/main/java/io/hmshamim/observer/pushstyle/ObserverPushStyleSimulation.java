@@ -1,7 +1,7 @@
-package io.hmshamim.observer;
+package io.hmshamim.observer.pushstyle;
 
-public class ObserverAction {
-    public static void printResult(){
+public class ObserverPushStyleSimulation {
+    public static void simulate(){
         var dataSource = new DataSource();
          var sheet1 = new SpreadSheet();
          var sheet2 = new SpreadSheet();
@@ -12,5 +12,6 @@ public class ObserverAction {
          dataSource.addObserver(chart);
 
          dataSource.setValue(1);
+        dataSource.setValue(2);
     }
 }

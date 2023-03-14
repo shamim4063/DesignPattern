@@ -1,7 +1,7 @@
 package io.hmshamim.iterator;
 
-public class IteratorAction {
-    public static void printResult(){
+public class IteratorSimulation {
+    public static void simulate(){
         /*
         * Here BrowserHistory has List of String. It could be a any other type of collection like List of Object,
         * Array of String or Array of Object( If we need any fixed sized collection)

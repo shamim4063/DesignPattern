@@ -1,7 +1,7 @@
 package io.hmshamim.state;
 
-public class StateAction {
-    public static void printResult(){
+public class StateSimulation {
+    public static void simulate(){
         /*
         * Here Canvas is the object which should behave different based on its internal state (currentTool).
         * If currentTool is the SelectionTool object then mouseDown and mouseUp of canvas method should draw a rectangle.

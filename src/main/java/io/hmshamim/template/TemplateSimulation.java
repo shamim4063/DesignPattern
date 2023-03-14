@@ -1,7 +1,7 @@
 package io.hmshamim.template;
 
-public class TemplateAction {
-    public static void printResult(){
+public class TemplateSimulation {
+    public static void simulate(){
         var moneyTransfer = new TransferMoneyTask();
         moneyTransfer.execute();
     }

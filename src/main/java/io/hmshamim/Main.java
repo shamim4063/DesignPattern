@@ -1,31 +1,34 @@
 package io.hmshamim;
 
 
-import io.hmshamim.command.CommandAction;
-import io.hmshamim.iterator.IteratorAction;
-import io.hmshamim.momento.MomentoAction;
-import io.hmshamim.observer.ObserverAction;
-import io.hmshamim.observer.pullstyle.ObserverPullStyleAction;
-import io.hmshamim.observer.pushstyle.ObserverPushStyleAction;
-import io.hmshamim.state.StateAction;
-import io.hmshamim.strategy.StrategyAction;
-import io.hmshamim.template.TemplateAction;
+import io.hmshamim.command.CommandSimulation;
+import io.hmshamim.iterator.IteratorSimulation;
+import io.hmshamim.mediator.ArticleDialogBox;
+import io.hmshamim.mediator.MediatorSimulation;
+import io.hmshamim.momento.MomentoSimulation;
+import io.hmshamim.observer.ObserverSimulation;
+import io.hmshamim.observer.pullstyle.ObserverPullStyleSimulation;
+import io.hmshamim.observer.pushstyle.ObserverPushStyleSimulation;
+import io.hmshamim.state.StateSimulation;
+import io.hmshamim.strategy.StrategySimulation;
+import io.hmshamim.template.TemplateSimulation;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Uncomment following line one by one to see output result of each Design Pattern.");
+        System.out.println("Uncomment following line one by one to simulate of each Design Pattern.");
 /*
-        MomentoAction.printResult();
-        StateAction.printResult();
-        IteratorAction.printResult();
-        StrategyAction.printResult();
-        TemplateAction.printResult();
-        CommandAction.printResult();
-        ObserverAction.printResult();
-        ObserverPushStyleAction.printResult();
-        ObserverPullStyleAction.printResult();
+        MomentoSimulation.simulate();
+        StateSimulation.simulate();
+        IteratorSimulation.simulate();
+        StrategySimulation.simulate();
+        TemplateSimulation.simulate();
+        CommandSimulation.simulate();
+        ObserverSimulation.simulate();
+        ObserverPushStyleSimulation.simulate();
+        ObserverPullStyleSimulation.simulate();
+        MediatorSimulation.simulate();
 */
+
+
     }
-
-
 }

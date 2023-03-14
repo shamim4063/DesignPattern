@@ -5,7 +5,7 @@ import io.hmshamim.strategy.compressor.PngCompressor;
 import io.hmshamim.strategy.filter.BlackAndWhiteFilter;
 import io.hmshamim.strategy.filter.HighContrastFilter;
 
-public class StrategyAction {
+public class StrategySimulation {
     /*
     * Here in this example, ImageStorage class is our context class, where we want to apply different
     * image compressing and filtering algorithm at runtime such as:
@@ -15,7 +15,7 @@ public class StrategyAction {
     * JpegCompressor, PngCompressor and BlackAndWhiteFilter, HighContrastFilter.
     * This is how a family of interchangeable algorithms and encapsulate each one as an object.
     */
-    public static void printResult(){
+    public static void simulate(){
         var imageStorage = new ImageStorage();
         imageStorage.store("StrategyImage", new JpegCompressor(), new BlackAndWhiteFilter());
         imageStorage.store("StrategyImage", new PngCompressor(), new HighContrastFilter());
