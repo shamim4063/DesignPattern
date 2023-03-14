@@ -4,6 +4,16 @@ Mediator pattern is a behavioral design pattern that allows objects to communica
 
 In this pattern, the objects do not communicate with each other directly. Instead, they send messages to the mediator, which in turn communicates with other objects. This way, the objects are isolated from each other, and they do not need to have any knowledge of each other's existence.
 
+### Problem
+Say you have a dialog for creating and editing customer profiles. It consists of various form controls such as text fields, checkboxes, buttons, etc.
+![](../../../../../../../Desktop/problem1-en.png)
+
+Some of the form elements may interact with others. For instance, selecting the “I have a dog” checkbox may reveal a hidden text field for entering the dog’s name. Another example is the submit button that has to validate values of all fields before saving the data.
+
+### Solution
+![](../../../../../../../Desktop/solution1-en.png)
+
+
 ### The Mediator pattern typically includes the following components:
 
 The mediator pattern has the following components:
