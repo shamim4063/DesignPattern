@@ -6,13 +6,19 @@ In this pattern, the objects do not communicate with each other directly. Instea
 
 ### Problem
 Say you have a dialog for creating and editing customer profiles. It consists of various form controls such as text fields, checkboxes, buttons, etc.
-![](../../../../../../../Desktop/problem1-en.png)
+
+![problem1-en](https://user-images.githubusercontent.com/20413644/224881733-aac1c693-21a4-4b50-b624-2753dedcef0c.png)
+
 
 Some of the form elements may interact with others. For instance, selecting the “I have a dog” checkbox may reveal a hidden text field for entering the dog’s name. Another example is the submit button that has to validate values of all fields before saving the data.
 
-### Solution
-![](../../../../../../../Desktop/solution1-en.png)
+By having this logic implemented directly inside the code of the form elements you make these elements’ classes much harder to reuse in other forms of the app. For example, you won’t be able to use that checkbox class inside another form, because it’s coupled to the dog’s text field. You can use either all the classes involved in rendering the profile form, or none at all.
 
+### Solution
+
+![solution1-en](https://user-images.githubusercontent.com/20413644/224881763-c63c2185-8294-4802-81d4-28d1afeab52a.png)
+
+The Mediator pattern suggests that you should cease all direct communication between the components which you want to make independent of each other. Instead, these components must collaborate indirectly, by calling a special mediator object that redirects the calls to appropriate components. As a result, the components depend only on a single mediator class instead of being coupled to dozens of their colleagues.
 
 ### The Mediator pattern typically includes the following components:
 
