@@ -1,4 +1,7 @@
 # Chain of Responsibility Pattern
+
+![chain-of-responsibility-3x](https://user-images.githubusercontent.com/20413644/230666532-31afb707-c13a-4c00-803c-2c5343934049.png)
+
 Chain of Responsibility is a behavioral design pattern that allows you to build a chain of objects that can handle requests, and pass the request along the chain until it is handled or until the end of the chain is reached.
 
 In this pattern, each object in the chain has a reference to the next object in the chain, forming a linked list. When a request is received by the first object in the chain, it checks if it can handle the request. If it can, it handles the request and the chain ends. If it cannot handle the request, it passes the request to the next object in the chain, and so on, until the request is handled or until the end of the chain is reached.
