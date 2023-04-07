@@ -18,10 +18,13 @@ In this pattern, each object in the chain has a reference to the next object in 
 
 ![bank-management](https://user-images.githubusercontent.com/20413644/230667139-9800742c-a301-4583-b9d5-9176932ee248.jpeg)
 
-Imagine we are developing a Loan Approval System for a Bank. And there have three different categories of role for approve customers requested loan.
-1. **Junior Loan Officer:** He handles all the loan request initially, if he founds all the required information is correct and requested loan amount is not more than 1000/- then he approves it by himself. But, if customer information is correct but requested loan amount is more than 1000/- he forward the request to a Senior Loan officer.
-2. **Senior Loan Officer:** He approves the loan if it is less than 5000/- and forward the request to Loan Manager if it is more than that.
-3. **Loan Manager:** He approves if it is more than 5000/-.
+Let us consider the development of a Loan Approval System for a Bank, where loan approval is categorised into three different roles:
+
+1. **Junior Loan Officer:** The Junior Loan Officer handles all loan requests initially. If all the required information is correct and the requested loan amount is less than or equal to 1000/-, the loan is approved by the Junior Loan Officer. However, if the requested loan amount is more than 1000/-, the loan request is forwarded to the Senior Loan Officer.
+
+2. **Senior Loan Officer:** The Senior Loan Officer approves loan requests that are less than 5000/-. If the requested loan amount is greater than or equal to 5000/-, the request is forwarded to the Loan Manager.
+
+3. **Loan Manager:** The Loan Manager approves loan requests that are more than 5000/-.
 
 We can design our application using Chain Of Responsibility in following way:
 
