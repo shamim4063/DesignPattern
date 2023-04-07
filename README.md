@@ -27,3 +27,4 @@ These are just a few examples of the different types of design patterns that are
 - [**Command Pattern**](src/main/java/io/hmshamim/command/COMMAND.md)
 - [**Observer Pattern**](src/main/java/io/hmshamim/observer/OBSERVER.md)
 - [**Mediator Pattern**](src/main/java/io/hmshamim/mediator/MEDIATOR.md)
+- [**Chain Of responsibility Pattern**](src/main/java/io/hmshamim/chainOfresponsibility/CHAIN_OF_RESPONSIBLE.md)

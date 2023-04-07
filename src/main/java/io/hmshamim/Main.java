@@ -1,6 +1,7 @@
 package io.hmshamim;
 
 
+import io.hmshamim.chainOfresponsibility.ChainOfResponsibilitySimulation;
 import io.hmshamim.command.CommandSimulation;
 import io.hmshamim.iterator.IteratorSimulation;
 import io.hmshamim.mediator.ArticleDialogBox;
@@ -27,8 +28,8 @@ public class Main {
         ObserverPushStyleSimulation.simulate();
         ObserverPullStyleSimulation.simulate();
         MediatorSimulation.simulate();
+        ChainOfResponsibilitySimulation.simulate();
 */
-
 
     }
 }
