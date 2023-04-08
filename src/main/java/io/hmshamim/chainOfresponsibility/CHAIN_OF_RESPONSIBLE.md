@@ -93,8 +93,8 @@ public class Client {
         Handler seniorLoanOfficer = new SeniorLoanOfficer();
         Handler loanManager = new LoanManager();
         
-        juniorLoanOfficer.setSuccessor(h2);
-        seniorLoanOfficer.setSuccessor(h3);
+        juniorLoanOfficer.setSuccessor(seniorLoanOfficer);
+        seniorLoanOfficer.setSuccessor(loanManager);
 
         // Generate and process requests
         CustomerRequest request1 = new CustomerRequest("John", 500);
