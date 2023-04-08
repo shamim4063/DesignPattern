@@ -13,6 +13,7 @@ import io.hmshamim.observer.pushstyle.ObserverPushStyleSimulation;
 import io.hmshamim.state.StateSimulation;
 import io.hmshamim.strategy.StrategySimulation;
 import io.hmshamim.template.TemplateSimulation;
+import io.hmshamim.visitor.SimulateVisitor;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,6 +30,7 @@ public class Main {
         ObserverPullStyleSimulation.simulate();
         MediatorSimulation.simulate();
         ChainOfResponsibilitySimulation.simulate();
+        SimulateVisitor.simulate();
 */
 
     }
