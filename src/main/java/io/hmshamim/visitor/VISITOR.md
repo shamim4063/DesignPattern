@@ -68,6 +68,9 @@ public class Main{
 ```
 In the above example we applied Highlighting operation on Html nodes, and it works perfectly. Consider tomorrow we need to perform another operation like extracting each node's text to convert the Html document into a plain text document. To do that we need to add another method(operation) in HtmlNode interface, and it will cause changing all classes which implemented the HtmlNode interface. This is violating the **Open Close Principle**. 
 
+![no_change_but_children](https://user-images.githubusercontent.com/20413644/230711783-456e89f0-753f-41f2-9364-624ceae7720e.jpeg)
+
+
 ### Solution using Visitor Pattern
 First we need the visitor (the Operation interface bellow) interface for the operations that can be performed on the HtmlNode.
 
