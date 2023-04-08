@@ -1,4 +1,7 @@
 # The Visitor Pattern
+
+![tools](https://user-images.githubusercontent.com/20413644/230711531-fbcd2160-6046-4c8c-89f9-f1dacacc1a54.jpeg)
+
 The Visitor pattern is a behavioral design pattern that allows you to separate the algorithm from the object structure on which it operates. It lets you define a new operation without changing the classes of the elements on which it operates.
 
 In the Visitor pattern, you define a separate class (the Visitor) that visits the nodes of the object structure, performing operations on those nodes. The object structure classes (the Elements) then accept a Visitor object, which calls back to the appropriate methods on the Visitor to perform the operation.
@@ -12,6 +15,9 @@ In the Visitor pattern, you define a separate class (the Visitor) that visits th
 **ObjectStructure:** represents the object structure on which the Visitor operates.
 
 ### Problem
+
+![best-open-source-wysiwyg-editors](https://user-images.githubusercontent.com/20413644/230711654-38782b73-d63e-48cc-9921-3afe3f6e5cd2.jpeg)
+
 Let us consider the development of HTML Document editor application, where we have different HTML elements like Head element, Anchor Element etc. In the editor we perform different operations like highlighting the nodes and extracting plain text from those nodes.
 This system can be developed in a straightforward manner in following way:
 
