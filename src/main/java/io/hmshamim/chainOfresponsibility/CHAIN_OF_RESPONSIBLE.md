@@ -59,7 +59,7 @@ public abstract class Handler {
 
 public class JuniorLoanOfficer extends Handler {
     public void handleRequest(CustomerRequest request) {
-        if (request.getAmount() < 1000) {
+        if (request.getAmount() <= 1000) {
             System.out.println("Junior Loan officer approved the requested loan for "+ request.getName());
         } else if (successor != null) {
             successor.handleRequest(request);
@@ -69,7 +69,7 @@ public class JuniorLoanOfficer extends Handler {
 
 public class SeniorLoanOfficer extends Handler {
     public void handleRequest(CustomerRequest request) {
-        if (request.getAmount() >= 1000 && request.getAmount() < 5000) {
+        if (request.getAmount() > 1000 && request.getAmount() < 5000) {
             System.out.println("Senior Loan officer have approved requested loan for "+ request.getName());            
         } else if (successor != null) {
             successor.handleRequest(request);

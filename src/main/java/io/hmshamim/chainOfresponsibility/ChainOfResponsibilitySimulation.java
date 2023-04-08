@@ -11,13 +11,13 @@ public class ChainOfResponsibilitySimulation {
 
 
         // Generate and process requests
-        CustomerRequest request1 = new CustomerRequest("John", 100000);
+        CustomerRequest request1 = new CustomerRequest("John", 500);
         juniorLoanOfficer.handleRequest(request1);
 
-        CustomerRequest request2 = new CustomerRequest("Jane", 1000000);
+        CustomerRequest request2 = new CustomerRequest("Jane", 2000);
         juniorLoanOfficer.handleRequest(request2);
 
-        CustomerRequest request3 = new CustomerRequest("Bob", 100000000);
+        CustomerRequest request3 = new CustomerRequest("Bob", 10000);
         juniorLoanOfficer.handleRequest(request3);
     }
 }
