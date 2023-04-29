@@ -19,6 +19,9 @@ Design patterns are templates for solving problems that can be adapted to solve 
 These are just a few examples of the different types of design patterns that are available in software development. Each pattern has its own strengths and weaknesses and can be used in different contexts to solve specific problems.
 
 **Here we will discuss some popular design pattern with example code:**
+
+## Behavioral Design Patterns
+
 - [**Momento Pattern**](src/main/java/io/hmshamim/momento/MOMENTO.md)
 - [**State Pattern**](src/main/java/io/hmshamim/state/STATE.md)
 - [**Iterator Pattern**](src/main/java/io/hmshamim/iterator/ITERATOR.md)
@@ -29,3 +32,5 @@ These are just a few examples of the different types of design patterns that are
 - [**Mediator Pattern**](src/main/java/io/hmshamim/mediator/MEDIATOR.md)
 - [**Chain Of Responsibility Pattern**](src/main/java/io/hmshamim/chainOfresponsibility/CHAIN_OF_RESPONSIBLE.md)
 - [**Visitor Pattern**](src/main/java/io/hmshamim/visitor/VISITOR.md)
+
+## Structural Design Patterns
