@@ -20,7 +20,7 @@ These are just a few examples of the different types of design patterns that are
 
 **Here we will discuss some popular design pattern with example code:**
 
-## Behavioral Design Patterns
+### Behavioral Design Patterns
 
 - [**Momento Pattern**](src/main/java/io/hmshamim/momento/MOMENTO.md)
 - [**State Pattern**](src/main/java/io/hmshamim/state/STATE.md)
@@ -33,4 +33,4 @@ These are just a few examples of the different types of design patterns that are
 - [**Chain Of Responsibility Pattern**](src/main/java/io/hmshamim/chainOfresponsibility/CHAIN_OF_RESPONSIBLE.md)
 - [**Visitor Pattern**](src/main/java/io/hmshamim/visitor/VISITOR.md)
 
-## Structural Design Patterns
+### Structural Design Patterns
