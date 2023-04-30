@@ -22,6 +22,9 @@ These are just a few examples of the different types of design patterns that are
 
 ### Behavioral Design Patterns
 
+Behavioral patterns describe the interactions and communication between objects and classes to achieve specific behaviors or functionalities. 
+They focus on the dynamic behavior of an object or group of objects, and how they respond to different events and changes in the system
+
 - [**Momento Pattern**](src/main/java/io/hmshamim/momento/MOMENTO.md)
 - [**State Pattern**](src/main/java/io/hmshamim/state/STATE.md)
 - [**Iterator Pattern**](src/main/java/io/hmshamim/iterator/ITERATOR.md)
@@ -34,3 +37,8 @@ These are just a few examples of the different types of design patterns that are
 - [**Visitor Pattern**](src/main/java/io/hmshamim/visitor/VISITOR.md)
 
 ### Structural Design Patterns
+
+Structural patterns deal with the relationship between objects, such as how they are composed or arranged to form larger structures.
+They help in creating more flexible and efficient object structures by identifying simple ways to compose objects into more complex structures.
+
+- [**Composite Pattern**](src/main/java/io/hmshamim/composite/COMPOSITE.md)

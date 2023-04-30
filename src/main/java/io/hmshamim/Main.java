@@ -3,6 +3,7 @@ package io.hmshamim;
 
 import io.hmshamim.chainOfresponsibility.ChainOfResponsibilitySimulation;
 import io.hmshamim.command.CommandSimulation;
+import io.hmshamim.composite.SimulateComposite;
 import io.hmshamim.iterator.IteratorSimulation;
 import io.hmshamim.mediator.ArticleDialogBox;
 import io.hmshamim.mediator.MediatorSimulation;
@@ -31,6 +32,7 @@ public class Main {
         MediatorSimulation.simulate();
         ChainOfResponsibilitySimulation.simulate();
         SimulateVisitor.simulate();
+        SimulateComposite.simulate();
 */
 
     }
