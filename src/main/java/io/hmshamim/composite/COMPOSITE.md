@@ -1,5 +1,9 @@
 # The Composite Pattern
 
+
+![problem-en](https://user-images.githubusercontent.com/20413644/235346968-84215099-8471-47d7-ba81-510e6f851b04.png)
+
+
 The Composite design pattern is a structural pattern that allows you to compose objects into a tree-like structure to represent part-whole hierarchies. The pattern allows clients to treat individual objects and compositions of objects uniformly.
 
 In this pattern, a composite object contains a collection of leaf objects or other composite objects, and all the objects in the hierarchy share a common interface or abstract class. The composite object is treated in the same way as a single object, regardless of whether it is a leaf or a composite object.
@@ -10,7 +14,11 @@ In this pattern, a composite object contains a collection of leaf objects or oth
 **Leaf:** A class that represents the individual objects in the composition. It implements the operations defined by the Component interface. <br>
 **Composite:** A class that represents the composition of objects. It also implements the operations defined by the Component interface, but it does so by delegating the work to its child components. <br>
 
-An example of the composite pattern can represent a company's organizational structure. We can have employees, who can either be individual contributors or managers who manage other employees. Managers can also be managed by other managers. We can use the Composite design pattern to represent this hierarchy as follows:
+An example of the composite pattern can represent a company's organizational structure. We can have employees, who can either be individual contributors or managers who manage other employees. Managers can also be managed by other managers.
+
+![4-types-of-organizational-chart](https://user-images.githubusercontent.com/20413644/235347113-ed9f7b17-fcc0-40c6-afca-905727c7860c.jpeg)
+
+We can use the Composite design pattern to represent this hierarchy as follows:
 
 ```java
 // Component interface
