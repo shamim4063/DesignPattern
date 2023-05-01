@@ -1,5 +1,8 @@
 ## The Decorator Pattern
-he Decorator design pattern is a structural pattern that allows the addition of new functionality to an existing object without changing its structure. It is also known as the Wrapper pattern. The decorator pattern involves creating a decorator class that wraps the original class and provides additional functionality keeping the class methods signature intact.
+
+![decorator-comic-1](https://user-images.githubusercontent.com/20413644/235494948-c83cdca1-584f-47d7-a026-a8ce509cc767.png)
+
+The Decorator design pattern is a structural pattern that allows the addition of new functionality to an existing object without changing its structure. It is also known as the Wrapper pattern. The decorator pattern involves creating a decorator class that wraps the original class and provides additional functionality keeping the class methods signature intact.
 
 In simple terms, it is like adding layers of decoration to an object without changing its original structure. Each decorator adds its own behavior to the object, and the object can have multiple decorators.
 
