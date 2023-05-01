@@ -10,11 +10,9 @@ Adapter design pattern is a structural design pattern that allows objects with i
 **Adaptee:** This is the interface that needs to be adapted to the target interface.<br>
 **Adapter:** This is the class that implements the Target Interface and wraps the Adaptee object to translate its methods into the ones expected by the client.<br>
 
-
 **Here's an example of adapter pattern in Java:**
 
 Suppose we have a third-party library that provides a class called Rectangle that represents a rectangle using width and height. However, we need to use this rectangle in our code, which expects an interface called Shape that has a method draw(). To make this work, we can create an adapter that implements the Shape interface and wraps the Rectangle object.
-
 
 
 ```java

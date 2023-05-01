@@ -43,3 +43,4 @@ They help in creating more flexible and efficient object structures by identifyi
 
 - [**Composite Pattern**](src/main/java/io/hmshamim/composite/COMPOSITE.md)
 - [**Adapter Pattern**](src/main/java/io/hmshamim/adapter/ADAPTER.md)
+- [**Decorator Pattern**](src/main/java/io/hmshamim/decorator/DECORATOR.md)

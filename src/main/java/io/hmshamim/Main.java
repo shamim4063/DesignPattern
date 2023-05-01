@@ -1,21 +1,7 @@
 package io.hmshamim;
 
 
-import io.hmshamim.adapter.AdapterSimulator;
-import io.hmshamim.chainOfresponsibility.ChainOfResponsibilitySimulation;
-import io.hmshamim.command.CommandSimulation;
-import io.hmshamim.composite.SimulateComposite;
-import io.hmshamim.iterator.IteratorSimulation;
-import io.hmshamim.mediator.ArticleDialogBox;
-import io.hmshamim.mediator.MediatorSimulation;
-import io.hmshamim.momento.MomentoSimulation;
-import io.hmshamim.observer.ObserverSimulation;
-import io.hmshamim.observer.pullstyle.ObserverPullStyleSimulation;
-import io.hmshamim.observer.pushstyle.ObserverPushStyleSimulation;
-import io.hmshamim.state.StateSimulation;
-import io.hmshamim.strategy.StrategySimulation;
-import io.hmshamim.template.TemplateSimulation;
-import io.hmshamim.visitor.SimulateVisitor;
+import io.hmshamim.decorator.DecoratorSimulation;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,5 +22,6 @@ public class Main {
         SimulateComposite.simulate();
         AdapterSimulator.simulate();
 */
+        DecoratorSimulation.simulate();
     }
 }
