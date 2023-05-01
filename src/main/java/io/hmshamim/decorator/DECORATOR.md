@@ -15,6 +15,8 @@ In simple terms, it is like adding layers of decoration to an object without cha
 
 **Here's an example in Java:**
 
+![restaurant_336471_menu_menu11591093851288](https://user-images.githubusercontent.com/20413644/235496777-83d16a1c-2c3f-419a-87d9-7fad9d12e820.jpeg)
+
 Suppose we have a Coffee interface with a method getCost() that returns the cost of the coffee. We want to add the ability to add extra ingredients to the coffee like milk, sugar, etc. We can use the decorator pattern to achieve this.
 
 ```java
