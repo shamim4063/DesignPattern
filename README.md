@@ -42,3 +42,4 @@ Structural patterns deal with the relationship between objects, such as how they
 They help in creating more flexible and efficient object structures by identifying simple ways to compose objects into more complex structures.
 
 - [**Composite Pattern**](src/main/java/io/hmshamim/composite/COMPOSITE.md)
+- [**Adapter Pattern**](src/main/java/io/hmshamim/adapter/ADAPTER.md)

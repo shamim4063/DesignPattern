@@ -1,6 +1,7 @@
 package io.hmshamim;
 
 
+import io.hmshamim.adapter.AdapterSimulator;
 import io.hmshamim.chainOfresponsibility.ChainOfResponsibilitySimulation;
 import io.hmshamim.command.CommandSimulation;
 import io.hmshamim.composite.SimulateComposite;
@@ -33,7 +34,7 @@ public class Main {
         ChainOfResponsibilitySimulation.simulate();
         SimulateVisitor.simulate();
         SimulateComposite.simulate();
+        AdapterSimulator.simulate();
 */
-
     }
 }
