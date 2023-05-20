@@ -2,6 +2,7 @@ package io.hmshamim;
 
 
 import io.hmshamim.decorator.DecoratorSimulation;
+import io.hmshamim.facade.FacadeSimulator;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,7 +22,8 @@ public class Main {
         SimulateVisitor.simulate();
         SimulateComposite.simulate();
         AdapterSimulator.simulate();
-*/
         DecoratorSimulation.simulate();
+        FacadeSimulator.simulate();
+*/
     }
 }
