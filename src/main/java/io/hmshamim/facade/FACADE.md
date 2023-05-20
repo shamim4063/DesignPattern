@@ -1,5 +1,7 @@
 # Facade Pattern
 
+![2019649607-wie-stelle-ich-mir-einen-rechner-zusammen-teil-1-begriffe-und-komponenten-thumbnail2-3fea](https://github.com/shamim4063/DesignPattern/assets/20413644/320424d4-7067-4060-8e86-24a2ba8e7dcc)
+
 The Facade design pattern is a structural pattern that provides a simplified interface to a complex subsystem or a group of interfaces. It acts as a high-level interface that makes it easier for clients to interact with the underlying system by providing a unified interface.
 
 The main purpose of the Facade pattern is to hide the complexity of the system and provide a simplified interface that abstracts away the details of the subsystem. It promotes loose coupling between clients and the subsystem by providing a single entry point to access its functionality.
